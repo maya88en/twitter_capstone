@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2021_06_10_140448) do
 
   # These are extensions that must be enabled in order to support this database
@@ -39,10 +40,19 @@ ActiveRecord::Schema.define(version: 2021_06_10_140448) do
     t.text "fullname"
     t.text "image"
     t.text "cover_image"
+=======
+ActiveRecord::Schema.define(version: 2021_06_11_140246) do
+
+  create_table "tweeets", force: :cascade do |t|
+    t.text "tweeet"
+>>>>>>> development
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
+<<<<<<< HEAD
   add_foreign_key "followings", "users", column: "followed_id"
   add_foreign_key "followings", "users", column: "follower_id"
+=======
+>>>>>>> development
 end

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "twitter-capstone",
+=======
+  "name": "twittter",
+>>>>>>> development
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
