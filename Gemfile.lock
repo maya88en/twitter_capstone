@@ -62,23 +62,17 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-<<<<<<< HEAD
-=======
     bcrypt (3.1.16)
     better_errors (2.9.1)
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
       rack (>= 0.9.0)
->>>>>>> development
     bindex (0.8.1)
     bootsnap (1.7.5)
       msgpack (~> 1.0)
     builder (3.2.4)
-<<<<<<< HEAD
-=======
     bulma-rails (0.6.2)
       sass (~> 3.2)
->>>>>>> development
     byebug (11.1.3)
     capybara (3.35.3)
       addressable
@@ -89,14 +83,6 @@ GEM
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
     childprocess (4.1.0)
-<<<<<<< HEAD
-    concurrent-ruby (1.1.9)
-    crass (1.0.6)
-    erubi (1.10.0)
-    ffi (1.15.1)
-    globalid (0.4.2)
-      activesupport (>= 4.2.0)
-=======
     coderay (1.1.3)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
@@ -134,7 +120,6 @@ GEM
       guard-compat (~> 1.0)
       multi_json (~> 1.8)
     http_parser.rb (0.6.0)
->>>>>>> development
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.2)
@@ -145,10 +130,7 @@ GEM
     loofah (2.10.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-<<<<<<< HEAD
-=======
     lumberjack (1.2.8)
->>>>>>> development
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     marcel (1.0.1)
@@ -156,12 +138,6 @@ GEM
     mini_mime (1.0.3)
     minitest (5.14.4)
     msgpack (1.4.2)
-<<<<<<< HEAD
-    nio4r (2.5.7)
-    nokogiri (1.11.7-x86_64-linux)
-      racc (~> 1.4)
-    pg (1.2.3)
-=======
     multi_json (1.15.0)
     nenv (0.3.0)
     nio4r (2.5.7)
@@ -176,7 +152,6 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
->>>>>>> development
     public_suffix (4.0.6)
     puma (5.3.2)
       nio4r (~> 2.0)
@@ -219,9 +194,6 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.1.1)
-<<<<<<< HEAD
-    rubyzip (2.3.0)
-=======
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -231,16 +203,12 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
->>>>>>> development
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
       ffi (~> 1.9)
-<<<<<<< HEAD
-=======
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
->>>>>>> development
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
       sassc (>= 2.0)
@@ -251,13 +219,10 @@ GEM
       childprocess (>= 0.5, < 5.0)
       rubyzip (>= 1.2.2)
     semantic_range (3.0.0)
-<<<<<<< HEAD
-=======
     shellany (0.0.1)
     simple_form (5.1.0)
       actionpack (>= 5.2)
       activemodel (>= 5.2)
->>>>>>> development
     spring (2.1.1)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -266,10 +231,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-<<<<<<< HEAD
-=======
     sqlite3 (1.4.2)
->>>>>>> development
     thor (1.1.0)
     tilt (2.0.10)
     turbolinks (5.2.1)
