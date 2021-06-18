@@ -5,6 +5,7 @@ ruby '2.7.0'
 
 gem 'wdm', '>= 0.1.0'
 
+# add comment line
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 # Use sqlite3 as the database for Active Record
