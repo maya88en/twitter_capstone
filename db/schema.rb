@@ -22,6 +22,9 @@ ActiveRecord::Schema.define(version: 2021_06_19_134741) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "tweeets", force: :cascade do |t|
     t.text "tweeet"
     t.datetime "created_at", precision: 6, null: false
