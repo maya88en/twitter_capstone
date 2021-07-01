@@ -3,13 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.3'
 
-gem 'wdm', '>= 0.1.0'
+# gem 'wdm', '>= 0.1.0'
 
-# add comment line
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
@@ -29,8 +28,6 @@ gem 'bulma-rails', '~> 0.6.1'
 gem 'simple_form', '~> 5.1'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.8'
-
-gem 'rubocop'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

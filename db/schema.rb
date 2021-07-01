@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_15_145110) do
+ActiveRecord::Schema.define(version: 2021_06_29_073921) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "follows", force: :cascade do |t|
+    t.integer "following_id"
+    t.integer "follower_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "tweeets", force: :cascade do |t|
     t.text "tweeet"
@@ -29,6 +39,8 @@ ActiveRecord::Schema.define(version: 2021_06_15_145110) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "name"
     t.string "username"
+    t.text "coverimage"
+    t.text "photo"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
     t.index ["username"], name: "index_users_on_username", unique: true
