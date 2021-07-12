@@ -1,0 +1,23 @@
+<div class="col-3 mt-4">
+    <h6 class="mb-0">Who to Follow</h6>
+    <% @users.each do |user| %>
+    <%if user != current_user%>
+    <article class="media">
+        <%= gravatar_image_tag(user.email , alt: user.name) %>
+        <p>
+            <strong><%=user.name%></strong><br>
+            <small>@<%=user.username%></small>
+        </p>
+
+        <span class="col-xs-12 pull-left">
+        <button onclick="location.href='http://www.twitter.com'" type="button">
+         Follow</button>
+        
+        </span>
+
+       
+    </article>
+    <% end %>
+    <% end %>
+
+</div>
